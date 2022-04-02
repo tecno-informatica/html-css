@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5 </title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture> <!--Responsividade, lembrando, que a ordem é essa mesma, da MENOR para MAIOR (P,M,G)-->
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png"> <!--FOTO PEQUENA-->
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png"> <!--FOTO MÉDIA-->
+        <img src="img/foto-g.png" alt="Imagens flexiveis"> <!--FOTO GRANDE-->
+    </picture>
+    <h1>Reproduzir Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+   <audio preload="metadata" autoplay controls loop>
+      <source src="midia/eden-albis.mp3" type="audio/mpeg"> <!--Vai procurar primeiro MP3-->
+      <source src="midia/eden-albis.mp3" type="audio/ogg"> <!--Segundo a  procurar primeiro ogg-->
+      <source src="midia/eden-albis.mp3" type="audio/way"> <!--Terceiro a procurar primeiro way-->
+      <p>Infelizmente seu navegador não consegue reproduzir esse áudio</p> <!--Não encontrou-->
+      <a href="midia/eden-albis.mp3">Clique aqui para baixar o Arquivo MP3#</a> <!--Clique para baixar-->
+    </audio>
+</body>
+</html>

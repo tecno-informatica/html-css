@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a { /*Configuração normal texto*/
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited { /*Após clicar ficar com essa cor*/
+            color: darkred;
+        }
+        a:hover {
+           color: black; /*Passar mouse ficar preto*/
+            text-decoration: underline; /*Passar mouse criar linha*/
+        }
+        a:active { /*Clicar, ficar amarelo*/
+            color: yellow;
+        }
+        .minha-seta::before { /*Antes*/
+            content: '⇒ ';
+        }
+        .minha-seta::after { /*Depois*/
+            content: ' ⇐'; 
+        }
+        .minha-seta {
+            background-color: rgb(173, 240, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://youtu.be/dvMSih3e9Bs
+            " target="_blank" class="minha-seta">Folha de Ponto</a></li>
+        <li><a href="https://youtu.be/dWB-J5CVYi4" target="_blank">CorelDraw</a></li>
+        <li><a href="https://youtu.be/f17BhP5ZG4U" target="_blank" class="minha-seta">Excel</a></li>
+    </ul>
+</body>
+</html>

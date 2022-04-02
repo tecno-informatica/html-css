@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(171, 229, 243);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(152, 152, 247);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color:  rgb(204, 176, 230);
+            padding: 3px;
+            box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.267);
+            border-radius: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(31, 8, 114);
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            border-radius: 10px;
+            box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.329);
+        }
+        article {
+            background-color: rgb(204, 176, 230);
+            padding: 4px;
+        }
+        article > aside {
+            background-color: rgb(220, 184, 228);
+            text-align: right;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0x;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav> <!--Navegação com Links-->
+            <a href="#">Dicas</a>
+            <a href="#">Sobre</a>
+            <a href="#">Videos Aulas</a>
+            <a href="#">Excel</a>
+            <a href="#">Mais Conteúdos</a>
+        </nav>
+    </header>
+    <main> <!--Conteúdo Principal-->
+        <section id="assuntos">
+            <p>Informática Programação Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Conteudo sobre Informática</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit odit accusamus, similique repellendus quae facere maxime recusandae maiores soluta deserunt ipsa autem omnis excepturi pariatur doloremque corporis eveniet culpa.</p>
+                <aside>
+                    <p>Site desenvolvido por Evandro</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Informática Do Zero</p>
+    </footer>
+</body>
+</html>

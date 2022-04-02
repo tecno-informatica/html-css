@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style> 
+        mark {
+            background-color: rgb(243, 89, 28);
+        }
+    </style> <!--Se você tem vários MARCADOR DE TEXTO, então, você cria um seletor em css, para marcar todos, como exemplo-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque (TAG: STRONG)</h2>
+    <p>Nossa frase temos um <b>termo em negrito</b> usando a tag B (não semãntica)</p> <!--tag em negrito, em DESUSO-->
+    <P>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semãntica)</P> <!--Forma correta de colocar em negrito-->
+    <h2>Itálico/Ênfase (TAG: EM</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semãntica)</p> <!--TAG I não usada mais-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semãntica)</p> <!--TAG usada atualmente-->
+    <h2>Texto Marcado (TAG: MARK)</h2>
+    <p>Vamos criar <mark>um texto marcado</mark> usando a TAG MARK</p>
+    <p>Vamos criar <mark style="background-color: rgb(52, 243, 100);">um texto marcado</mark> usando a TAG MARK</p> <!--TAG para criar marcador de texto. No PADRÃO a cor é AMARELO, mas caso queira mudar, usa-se, CSS, como mostra o exemplo-->
+    <h2>Texto Grande e Pequeno (TAGS: GRANDE-BIG PEQUENO-SMALL)</h2>
+    <p>Estamos criando <big>TEXTO GRANDE</big> e um <small>TEXTO PEQUENO</small> nesse parágrafo.</p> <!--A TAG BIG esta DESUSOS, Já TAG SMALL está como exige  a SEMÃNTICA-->
+    <h2>Texto Deletado (TAG: DEL)</h2> <!--Riscar o texto-->
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar</p>
+    <h2>Texto Inserido (TAG: INS)</h2> <!--Marcar texto com uma linha-->
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Exite também o <u>sublinhado</u>  com a TAG U (não semãntica)</p>
+    <h2>Texto Sobreescrito (TAG: XSUP) </h2> <!--Subir caracteres-->
+    <p>Para inserir coisa do tipo X<sup>20+3</sup></p>
+    <h2>Texto Subscrito (TAG: XSUB)</h2> <!--Descer caracteres-->
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+</body>
+</html>
