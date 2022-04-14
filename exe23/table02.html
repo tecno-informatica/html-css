@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 3px;
+            color: rgb(211, 211, 205);
+            background-color: rgb(89, 92, 92);
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+            position: relative; /*Para FIXAR Cabeçalho da TABLE*/
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 9px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead, tfoot {
+            background-color: black;
+            color: white;
+        }
+
+        thead > tr > th { /*Fixar Cabeçalho da Table*/
+            position: sticky;
+            top: 0px;
+            background-color: black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(219, 219, 219);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <!--
+        Anatomias para Tabelas Grandes
+        TABLE
+            THEAD
+                TR TD TH
+            TBODY
+                TR TD TH
+            TFOOT
+                TR TD TH
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas</caption> <!--LEGENDA-->
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th> <!--scope="col", serve para google analisar conteudo-->
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minhas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.557</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">132.079</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">6.602</td>
+            </tr>
+
+            <tr>
+                <td>Ssanta Catarina</td>
+                <td class="num">7.164</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7.075</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.010</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>88.559.953</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
