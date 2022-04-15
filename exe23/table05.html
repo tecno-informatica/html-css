@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Tabelas</title>
+
+    <style>
+
+        .col01 {
+            background-color: rgb(230, 245, 24);
+        }
+
+        .col02 {
+            background-color: rgb(248, 185, 48);
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: rgb(202, 202, 202);
+            border-radius: 4px;
+        }
+
+        th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo Fazer Tabela</h1>
+    <table>
+
+        <colgroup> <!--Background em COLUNAS-->
+            <col class="col01">
+            <col class="col02">
+            <col class="col01">
+            <col class="col02">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Evandro Rodrigues</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Analista</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Tecnico de Informática</td>
+        </tr>
+
+        <tr>
+            <td>Emanuella</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Web Design</td>
+        </tr>
+
+        <tr>
+            <td>Antonia</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Arquiteta</td>
+        </tr>
+
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Engenheiro</td>
+        </tr>
+
+        <tr>
+            <td>Antonia Laís</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
