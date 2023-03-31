@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*Aparelho deitado (orientation)*/
+
+body {
+    background-color: rgba(46, 46, 255, 0.897);
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom; /*Imagem a Esquerda*/
+}
