@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.icones-sociais {
+    position: absolute;
+    color: rgb(224, 247, 20);
+    top: 50px;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.icones-sociais a {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(216, 216, 221);
+    color: brown;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.icones-sociais a:hover {
+    background-color: rgb(243, 158, 109);
+    color: rgb(231, 228, 228);
+}
+
