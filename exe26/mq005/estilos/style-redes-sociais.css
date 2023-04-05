@@ -10,7 +10,7 @@
     position: absolute;
     color: rgb(224, 247, 20);
     top: 8%;
-    left: 92%;
+    left: 87%;
     transform: translate(-50%, -50%);
 }
 
@@ -53,8 +53,8 @@
 
 .icones-sociais a {
     display: inline;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 23px;
     color: rgb(255, 255, 255);
     border-radius: 9px;
     justify-content: center;
