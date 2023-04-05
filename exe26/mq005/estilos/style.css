@@ -28,16 +28,6 @@ header {
     padding-right: 65px;
 }
 
-.icones-sociais {
-    display: flex;
-}
-
-.icones-sociais a:hover {
-    transition: calc(3s);
-    transform: translate(-4px, -10px);
-    
-}
-
 .nav-list {
     position: relative;
     left: 25%;
@@ -118,19 +108,6 @@ header {
 @media screen and (max-width: 748px) {
     .nav-list {
         left: 4%;
-    }
-}
-
-@media screen and (max-width: 715px) {
-    .icones-sociais {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    .icones-sociais {
-        display: inline-flex;
-        
     }
 }
 
