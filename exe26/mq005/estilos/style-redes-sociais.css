@@ -11,10 +11,7 @@
     color: rgb(224, 247, 20);
     top: 7%;
     left: 87%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    padding: 2px;
-    padding-top: 2px;
+    transform: translate(-70%, -50%);
 }
 
 .icones-sociais a:hover {
