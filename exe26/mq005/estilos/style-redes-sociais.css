@@ -22,8 +22,9 @@
 
 @media screen and (max-width: 801px) {
     .icones-sociais {
+        position: absolute;
         left: 91%;
-        top: 10%;
+        top: 0%;
        
     }
 }
