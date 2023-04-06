@@ -9,9 +9,8 @@
 .icones-sociais {
     position: absolute;
     color: rgb(224, 247, 20);
-    top: 7%;
     left: 87%;
-    transform: translate(-70%, -50%);
+    transform: translate(-70%, 150%);
 }
 
 .icones-sociais a:hover {
@@ -24,27 +23,6 @@
     .icones-sociais {
         position: absolute;
         left: 91%;
-        top: -5%;
-       
-    }
-}
-
-@media screen and (min-width: 716px ) {
-    .icones-sociais {
-        display: inline-flexbox;
-    }
-}
-
-@media screen and (max-width: 715px) {
-    .icones-sociais {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    .icones-sociais {
-        display: inline-flex;
-        
     }
 }
 
