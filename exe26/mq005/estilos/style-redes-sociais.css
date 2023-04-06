@@ -14,8 +14,9 @@
 }
 
 .icones-sociais a:hover {
-    transition: calc(3s);
-    transform: translate(-4px, -10px);
+    transition: calc(0.5s);
+    transform: translate(10px, 0px);
+    color: rgb(253, 155, 9);
     
 }
 
@@ -65,9 +66,3 @@
     font-size: 18px;
     padding: 5px;
 }
-
-.icones-sociais a:hover {
-    
-    color: rgb(253, 155, 9);
-}
-
