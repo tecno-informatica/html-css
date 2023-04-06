@@ -9,14 +9,12 @@
 .icones-sociais {
     position: absolute;
     color: rgb(224, 247, 20);
-    top: 8%;
+    top: 7%;
     left: 87%;
     transform: translate(-50%, -50%);
-}
-
-.icones-sociais {
-    display: flex;
-    padding-right: 2px;
+    display: grid;
+    padding: 2px;
+    padding-top: 2px;
 }
 
 .icones-sociais a:hover {
