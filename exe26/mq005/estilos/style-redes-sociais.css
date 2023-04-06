@@ -19,10 +19,37 @@
     
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (max-width: 1038px) {
+    .icones-sociais {
+        position: absolute;
+        display: inline-flex;
+        left: 92%;
+        transform: translate(-70%, 90%);
+    }
+}
+
+@media screen and (max-width: 801px) {
+    .icones-sociais {
+        position: absolute;
+        left: 92%;
+        transform: translate(-70%, 90%);
+    }
+}
+
+@media screen and (max-width: 768px) {
     .icones-sociais {
         position: absolute;
         left: 91%;
+        transform: translate(-70%, 90%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .icones-sociais {
+        position: absolute;
+        display: grid;
+        left: 91%;
+        transform: translate(-70%, -5%);
     }
 }
 

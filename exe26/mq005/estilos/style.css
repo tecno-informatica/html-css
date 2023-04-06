@@ -105,6 +105,12 @@ header {
     }
 }
 
+@media screen and (max-width: 769px) {
+    .nav-list {
+        left: 5%;
+    }
+}
+
 @media screen and (max-width: 748px) {
     .nav-list {
         left: 4%;
