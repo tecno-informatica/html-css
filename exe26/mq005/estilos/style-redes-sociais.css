@@ -19,7 +19,7 @@
     
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (min-width: 801px) {
     .icones-sociais {
         position: absolute;
         left: 91%;
